@@ -1,0 +1,251 @@
+CRITICAL - 2024-03-28 05:48:28 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:54:45 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:54:59 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:54:59 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:55:00 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:55:43 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 05:55:46 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-28 06:49:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view_latihan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_latihan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('view_latihan', [], true)
+ 3 APPPATH\Controllers\latihan1.php(24): view('view_latihan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan('4', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 06:49:05 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 06:55:50 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 06:59:57 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:00:04 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:00:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view_latihan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_latihan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('view_latihan', [], true)
+ 3 APPPATH\Controllers\latihan1.php(24): view('view_latihan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan('4', '5')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:00:10 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 1 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan('4')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:00:12 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:02:07 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:02:07 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:03:59 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:03:59 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:04:47 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:04:47 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:06:35 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:08:58 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:08:58 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:11:25 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 07:12:35 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 08:46:58 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 08:46:58 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 08:47:18 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 08:47:19 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:12:20 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:12:21 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:15:02 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:15:03 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:15:17 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:15:35 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-03-28 09:15:35 --> ArgumentCountError: Too few arguments to function App\Controllers\latihan1::penjumlahan(), 0 passed in C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\latihan1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\latihan1->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\latihan1))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
